@@ -81,3 +81,11 @@
 - Sao encaminhadas para uma exchange especifica que roteia as mensagens para uma dead letter queue
 
 - Tais mensagens podem ser consumidas e averiguadas posteriormente
+
+## Lazy Queues
+
+- Mensagens sao armazenadas em disco
+
+- Exige alto I/O
+
+- Quando ha milhoes de mensagem em uma fila, por qualquer motivo, ha a possibilidade de liberar a memoria, jogando especificamente as mensagens em questao em disco
