@@ -51,3 +51,9 @@
 <p align="center">
   <img src="imgs/fanout-exchange.png">
 </p>
+
+### Topic Exchange
+
+<p align="center">
+  <img src="imgs/topic.png">
+</p>
