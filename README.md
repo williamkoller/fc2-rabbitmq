@@ -36,7 +36,7 @@
 
 #### Exemplos
 
-- Direct Exchange
+### Direct Exchange
 
 <p align="center">
   <img src="imgs/direct-exchange.png">
@@ -45,3 +45,9 @@
 - BIND (processo de relacionar exchange cm a fila)
 
 - Routing key (marca o exchange como X e a routing key X vai para fila X)
+
+### Fanout Exchange
+
+<p align="center">
+  <img src="imgs/fanout-exchange.png">
+</p>
