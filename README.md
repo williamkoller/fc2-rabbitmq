@@ -23,3 +23,25 @@
 <p align="center">
   <img src="imgs/fundamentos-basicos.png">
 </p>
+
+ ### Tipos de Exchange
+
+- Direct
+
+- Fanout (todas as filas que estao relacionadas a essa exchange)
+
+- Topic
+
+- Headers (menos utilizados)
+
+#### Exemplos
+
+- Direct Exchange
+
+<p align="center">
+  <img src="imgs/direct-exchange.png">
+</p>
+
+- BIND (processo de relacionar exchange cm a fila)
+
+- Routing key (marca o exchange como X e a routing key X vai para fila X)
