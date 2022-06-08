@@ -17,3 +17,9 @@
 <p align="center">
   <img src="imgs/por-baixo-dos-panos.png">
 </p>
+
+## Funcionamento Basico
+
+<p align="center">
+  <img src="imgs/fundamentos-basicos.png">
+</p>
