@@ -72,3 +72,12 @@
     - Reject publish
   - Exclusive: Somente channel que criou piode acessar
   - Max Length ou bytes: Quantidade de mensagens o tamanho dem butes maximo permitido
+
+
+## Dead letter queues
+
+- Algumas mensagens nao conseguem ser entregues por qualquer motivo
+
+- Sao encaminhadas para uma exchange especifica que roteia as mensagens para uma dead letter queue
+
+- Tais mensagens podem ser consumidas e averiguadas posteriormente
