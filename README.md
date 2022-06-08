@@ -57,3 +57,18 @@
 <p align="center">
   <img src="imgs/topic.png">
 </p>
+
+## Queues
+
+- FIFO, First In, First Out
+
+- Propriedades:
+  - Durable: Se ela deve ser salva mesmo depois do restart do broker
+  - Auto-delete: Removida automaticamente quando o consumer se desconecta
+  - Expiry: Define o tempo que nao ha mensagens ou clientes
+  - Message TTL: tempo de vida da mensagem
+  - Overflow:
+    - Drop head (remova a ultima)
+    - Reject publish
+  - Exclusive: Somente channel que criou piode acessar
+  - Max Length ou bytes: Quantidade de mensagens o tamanho dem butes maximo permitido
