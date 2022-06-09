@@ -89,3 +89,34 @@
 - Exige alto I/O
 
 - Quando ha milhoes de mensagem em uma fila, por qualquer motivo, ha a possibilidade de liberar a memoria, jogando especificamente as mensagens em questao em disco
+
+
+#### Direct Exchange
+
+<p align="center">
+  <img src="imgs/direct.png">
+</p>
+
+
+#### Fanout Exchange
+
+<p align="center">
+  <img src="imgs/fanout.png">
+</p>
+
+
+#### Topic Exchange
+
+<p align="center">
+  <img src="imgs/topic-e.png">
+</p>
+
+
+## Confiabilidade
+
+- Como garantir que as mensagens nao serao perdidas no meio do caminho?!
+- Como garantir que as mensagens puderam ser processadas corretamente pelos consumidores?
+- Recurssos do RabbitMQ pensados para resolver tais situacoes
+  - Consumer acknowledgement
+  - Publish confirm
+  - Filas e mensagens duraveis e persistidas
