@@ -120,3 +120,11 @@
   - Consumer acknowledgement
   - Publish confirm
   - Filas e mensagens duraveis e persistidas
+
+#### Consumer acknowledgement
+
+- Basic.Ack (tudo ok)
+
+- Basic.Reject (consumer rejeita)
+
+- Basic.Nack (consegue rejeitar mais de uma mensagem por vez)
